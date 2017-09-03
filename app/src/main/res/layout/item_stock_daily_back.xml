@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/date"
+            android:text="2016-01-01"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center" />
+        <TextView
+            android:text="开盘价"
+            android:layout_column="1"
+            android:layout_width="60dp"
+            android:layout_marginLeft="2dp" />
+        <TextView
+            android:text="最高价"
+            android:layout_column="2"
+            android:layout_width="50dp"
+            android:layout_marginLeft="2dp" />
+        <TextView
+            android:text="振幅"
+            android:layout_column="3"
+            android:layout_width="60dp"
+            android:layout_marginLeft="2dp" />
+        <TextView
+            android:text="成交量(万)"
+            android:layout_column="4"
+            android:layout_width="80dp"
+            android:layout_marginLeft="2dp" />
+        <TextView
+            android:text="总市值(亿)"
+            android:layout_column="5"
+            android:layout_width="100dp"
+            android:layout_marginLeft="2dp" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tclose"
+            android:text="100.00"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/topen"
+            android:text="10.00"
+            android:layout_width="60dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="2dp" />
+        <TextView
+            android:id="@+id/high"
+            android:text="100.00"
+            android:layout_width="60dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_marginLeft="2dp" />
+        <TextView
+            android:id="@+id/amplitude"
+            android:text="100.00"
+            android:layout_width="60dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_marginLeft="2dp" />
+        <TextView
+            android:id="@+id/voturnover"
+            android:text="99.99"
+            android:layout_width="80dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_marginLeft="2dp" />
+        <TextView
+            android:id="@+id/tcap"
+            android:text="99.99"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_marginLeft="2dp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="0"
+            android:id="@+id/pchg"
+            android:text="100.00"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center" />
+        <TextView
+            android:text="前收盘"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="2dp" />
+        <TextView
+            android:text="最低价"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_marginLeft="2dp" />
+        <TextView
+            android:text="换手率"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_marginLeft="2dp" />
+        <TextView
+            android:text="成交额(亿)"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_marginLeft="2dp" />
+        <TextView
+            android:text="流通市值(亿)"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_marginLeft="2dp" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/chg"
+            android:layout_width="100dp"
+            android:layout_column="0"
+            android:text="10.0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginRight="10dp"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/lclose"
+            android:text="100.00"
+            android:layout_width="60dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_column="1"
+            android:layout_marginLeft="2dp" />
+        <TextView
+            android:id="@+id/low"
+            android:text="100.00"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_marginLeft="2dp" />
+        <TextView
+            android:id="@+id/turnover"
+            android:text="100.00"
+            android:layout_width="60dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_marginLeft="2dp" />
+        <TextView
+            android:id="@+id/vaturnover"
+            android:text="99.99"
+            android:layout_width="80dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_marginLeft="2dp" />
+        <TextView
+            android:id="@+id/mcap"
+            android:text="100.00"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_marginLeft="2dp" />
+    </TableRow>
+
+</TableLayout>

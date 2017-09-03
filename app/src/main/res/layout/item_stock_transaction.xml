@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/jsrq"
+            android:layout_width="100dp"
+            android:layout_column="0"
+            android:text="20160101"
+            />
+
+        <TextView
+            android:id="@+id/cjjg"
+            android:layout_column="1"
+            android:gravity="right"
+            android:text="100.00"
+            android:layout_width="60dp" />
+
+        <TextView
+            android:id="@+id/fsje"
+            android:layout_column="2"
+            android:layout_width="110dp"
+            android:gravity="right"
+            android:text="99999.00" />
+
+        <TextView
+            android:id="@+id/tclose"
+            android:layout_column="3"
+            android:gravity="right"
+            android:text="100.00"
+            android:layout_width="60dp" />
+
+        <TextView
+            android:id="@+id/high"
+            android:layout_column="4"
+            android:gravity="right"
+            android:text="100.00"
+            android:layout_width="60dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/zy"
+            android:layout_column="0"
+            android:text="摘要"
+            android:layout_width="100dp" />
+
+        <TextView
+            android:id="@+id/cjsl"
+            android:layout_width="60dp"
+            android:layout_column="1"
+            android:gravity="right"
+            android:text="100000" />
+
+        <TextView
+            android:id="@+id/syje"
+            android:layout_column="2"
+            android:layout_width="110dp"
+            android:gravity="right"
+            android:text="100000.00"
+            />
+        <TextView
+            android:id="@+id/topen"
+            android:layout_column="3"
+            android:gravity="right"
+            android:text="100.00"
+            android:layout_width="60dp" />
+        <TextView
+            android:id="@+id/low"
+            android:layout_column="4"
+            android:gravity="right"
+            android:text="100.00"
+            android:layout_width="60dp" />
+    </TableRow>
+</TableLayout>

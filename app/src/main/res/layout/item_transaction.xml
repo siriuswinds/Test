@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/cjrq"
+            android:layout_width="100dp"
+            android:layout_column="0"
+            android:text="20160101" />
+
+        <TextView
+            android:id="@+id/zqdm"
+            android:layout_column="1"
+            android:layout_width="80dp"
+            android:text="600000" />
+
+        <TextView
+            android:id="@+id/zqmc"
+            android:layout_column="2"
+            android:layout_width="80dp"
+            android:text="证券名称" />
+
+        <TextView
+            android:id="@+id/mmbz"
+            android:layout_column="3"
+            android:layout_width="80dp"
+            android:text="证券买入" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/cjsl"
+            android:layout_column="1"
+            android:text="1000" />
+
+        <TextView
+            android:id="@+id/cjjg"
+            android:layout_column="2"
+            android:text="100.00" />
+
+        <TextView
+            android:id="@+id/cjje"
+            android:layout_column="3"
+            android:text="10000.00" />
+    </TableRow>
+
+</TableLayout>
